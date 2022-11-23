@@ -1,7 +1,7 @@
- const express = require('express')
- const bodyParser = require('body-parser')
- const smsClient = require('./text')
- const user = {name: "Prabhat", phone: "7908679275"};
+const express = require('express')
+const bodyParser = require('body-parser')
+const smsClient = require('./text')
+const user = {name: "Prabhat", phone: "7908679275"}; //hard coded user
 const app = express()
 const port = 3000
 
